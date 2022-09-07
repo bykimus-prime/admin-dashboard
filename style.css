@@ -63,9 +63,41 @@
    margin: 0 20px 20px 0;
 }
 
-.content {
+.main-section {
    grid-column: 2 / 3;
    grid-row: 2 / 3;
    background-color: grey;
    display: grid;
+   grid-template-columns: 3fr 1fr;
+   grid-template-rows: 1fr 1fr;
+}
+
+.projects-cluster {
+   grid-column: 1 / 2;
+   grid-row: 1 / 3;
+}
+
+.projects-deck {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.announcements-section {
+   grid-column: 2 / 3;
+   grid-row: 1 / 2;
+}
+
+.announcements-container {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.trending-section {
+   grid-column: 2 / 3;
+   grid-row: 2 / 3;
+}
+
+.trending-container {
+   display: grid;
+   grid-template-columns: 1fr;
 }
