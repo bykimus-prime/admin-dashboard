@@ -17,23 +17,32 @@
 
       <div class="header">
          <div class="layer-top">
-            <div>i'm a searchbar</div>
-            <div>notification</div>
-            <div>account pic</div>
-            <div>account name</div>
+            <div class="searchbar">
+               <div>
+                  <input type="image" class="search-icon" form="myform" src="./icons/magnify-google.png">
+               </div>
+               <form id="myform" method="get" action="#">
+                  <input class="search-input" type="text" id="searchField" name="searchField" value="">
+               </form>
+            </div>
+            <div class="profile-bar">
+               <div><img class="notification-icon" src="./icons/bell-ring-outline-google.png" alt="notification icon"></div>
+               <div><img class="user-profile-pic-small" src="./profile-icons/rock-callum-parker.jpg" alt="profile picture"></div>
+               <div>Alexander Rodzyanko</div>
+            </div>
          </div>
          <div class="layer-bottom">
             <div class="account-logo-cluster">
-               <div class="logo-main">account logo</div>
-               <div>Hi there,</div>
-               <div>The Name (@thename)</div>
+               <div><img class="user-profile-pic-large" src="./profile-icons/rock-callum-parker.jpg" alt="profile picture"></div>
+               <div class="account-greeting">
+                  <div>Hi there,</div>
+                  <div>Alexander Rodzyanko (@alexanderrodzyanko)</div>
+               </div>
             </div>
             <div class="create-content">
-               <ul>
-                  <li>New</li>
-                  <li>Upload</li>
-                  <li>Share</li>
-               </ul>
+               <button class="content-create-button">New</button>
+               <button class="content-create-button">Upload</button>
+               <button class="content-create-button">Share</button>
             </div>
          </div>
       </div>
