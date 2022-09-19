@@ -13,25 +13,24 @@
    grid-template-rows: 1fr 4fr;
 }
 
+/* HEADING */
+
 .header {
    grid-column: 2 / 3;
+   grid-row: 1 / 2;
    background-color: white;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 80px 100px;
    position: relative;
    box-shadow: 0px 2px 3px rgb(175, 175, 175);
 }
 
 .layer-top {
-   grid-column: 1 / 3;
-   display: grid;
-   grid-template-columns: 3fr 1fr;
+   display: flex;
+   justify-content: space-between;
 }
 
 .searchbar {
    display: flex;
-   padding: 0 0 0 20px;
+   margin-left: 20px;
    align-items: center;
 }
 
@@ -52,12 +51,9 @@
 .profile-bar {
    display: flex;
    align-items: center;
+   justify-content: space-around;
    width: 30vw;
-}
-
-.profile-bar div {
-   margin-left: 1rem;
-   margin-right: 1rem;
+   font-weight: bold;
 }
 
 .notification-icon {
@@ -72,30 +68,57 @@
 
 .layer-bottom {
    grid-column: 1 / 3;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   margin: 20px 20px 0 30px;
 }
 
 .account-logo-cluster {
-   justify-self: flex-start;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-}
-
-.logo-main {
-   grid-row: 1 / 3;
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   margin-bottom: 12px;
 }
 
 .user-profile-pic-large {
    width: 80px;
    border-radius: 50%;
+   border: 1px solid rgb(197, 197, 197);
 }
 
-.create-content ul {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   justify-items: end;
+.greeting {
+   font-size: 12px;
+   margin-bottom: 5px;
+   padding-left: 5px;
 }
+
+.big-name {
+   font-size: 23px;
+   padding-left: 5px;
+}
+
+.create-content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 30vw;
+   margin-bottom: 1rem;
+}
+
+.content-create-button {
+   background-color: rgb(25, 146, 212);
+   color: white;
+   border: none;
+   border-radius: 15px;
+   height: 30px;
+   width: 75px;
+   font-weight: bold;
+   margin-bottom: 5px;
+   margin-right: 10px;
+}
+
+/* DASHBOARD */
 
 .dashboard {
    grid-row: 1 / 3;
@@ -133,6 +156,8 @@
    margin-right: 20px;
    padding-left: 6px;
 }
+
+/* CARD AREA */
 
 .main-section {
    grid-column: 2 / 3;
