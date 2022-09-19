@@ -51,7 +51,6 @@
 
 .profile-bar {
    display: flex;
-   justify-content: flex-end;
    align-items: center;
    width: 30vw;
 }
@@ -81,7 +80,6 @@
    justify-self: flex-start;
    display: grid;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
 }
 
 .logo-main {
