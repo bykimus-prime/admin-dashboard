@@ -202,6 +202,29 @@
    background-image: -webkit-linear-gradient(left, rgb(240, 180, 41), rgb(240, 180, 41) 2%, transparent 2%, transparent 100%);
 }
 
+.project-card-title {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.project-card-text p:nth-child(2) {
+   font-size: 13px;
+   color: rgb(88, 88, 88);
+}
+
+.project-card-buttons {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.project-card-buttons li {
+   margin-left: 20px;
+}
+
+.project-card-buttons img {
+   width: 20px;
+}
+
 .announcements-section {
    grid-column: 2 / 3;
    grid-row: 1 / 2;
