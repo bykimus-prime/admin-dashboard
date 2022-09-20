@@ -168,7 +168,7 @@
    background-color: rgb(226, 232, 240);
    display: grid;
    grid-template-columns: 3fr 1fr;
-   grid-template-rows: 1fr 1fr;
+   grid-template-rows: 300px 1fr;
    padding: 30px 20px 40px 20px;
 }
 
@@ -192,7 +192,8 @@
 
 .project-card {
    background-color: white;
-   height: 180px;
+   height: 160px;
+   min-width: 220px;
    border-radius: 5px;
    box-shadow: 0 2px 3px rgb(175, 175, 175);
    padding: 30px 20px 20px 20px;
@@ -205,6 +206,7 @@
 .project-card-title {
    font-size: 16px;
    font-weight: 500;
+   margin-bottom: 10px;
 }
 
 .project-card-text p:nth-child(2) {
@@ -243,7 +245,8 @@
    border-radius: 5px;
    box-shadow: 0px 2px 3px rgb(175, 175, 175);
    padding: 20px 20px 20px 25px;
-   min-width: 230px;
+   min-width: 200px;
+   max-width: 250px;
 }
 
 .announcement-title {
@@ -280,7 +283,8 @@ hr {
    border-radius: 5px;
    box-shadow: 0px 2px 3px rgb(175, 175, 175);
    padding: 20px 20px 6px 25px;
-   min-width: 230px;
+   min-width: 200px;
+   max-width: 250px;
 }
 
 .trending-person {
