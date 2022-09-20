@@ -169,22 +169,36 @@
    display: grid;
    grid-template-columns: 3fr 1fr;
    grid-template-rows: 1fr 1fr;
-   gap: 20px;
+   padding: 30px 20px 40px 20px;
 }
 
 .projects-cluster {
    grid-column: 1 / 2;
    grid-row: 1 / 3;
+   margin-right: 20px;
+}
+
+.projects-heading {
+   font-weight: bold;
+   font-size: 19px;
+   margin-bottom: 10px;
 }
 
 .projects-deck {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   gap: 5px;
+   gap: 20px;
 }
 
 .project-card {
    background-color: white;
+   height: 180px;
+   border-radius: 5px;
+   box-shadow: 0 2px 3px rgb(175, 175, 175);
+   padding: 30px 20px 20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 .announcements-section {
