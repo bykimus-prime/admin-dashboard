@@ -199,6 +199,7 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   background-image: -webkit-linear-gradient(left, rgb(240, 180, 41), rgb(240, 180, 41) 2%, transparent 2%, transparent 100%);
 }
 
 .announcements-section {
