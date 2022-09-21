@@ -50,7 +50,7 @@
 }
 
 input:focus {
-   outline: 1px solid grey;
+   outline: 1px solid rgb(25, 146, 212);
    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
