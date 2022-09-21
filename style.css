@@ -328,3 +328,28 @@ hr {
    border: 1px solid rgb(197, 197, 197);
 }
 
+.pretend-click:hover {
+   cursor: pointer;
+   -webkit-transform: scale(1.07);
+}
+
+li:hover {
+   cursor: pointer;
+   text-decoration: underline;
+   -webkit-transform: scale(1.07);
+}
+
+.project-card-title:hover {
+   cursor: pointer;
+   -webkit-transform: scale(1.02);
+}
+
+.announcement-title:hover {
+   cursor: pointer;
+   -webkit-transform: scale(1.02);
+}
+
+.trending-person:hover {
+   cursor: pointer;
+   -webkit-transform: scale(1.03);
+}
